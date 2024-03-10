@@ -28,10 +28,12 @@
     border-radius: 10px;
     background-color: rgb(66, 191, 215);
     color: white;
+    border: solid rgb(10, 76, 90);;
 }
 #submit:hover
 {
     background-color: rgb(10, 76, 90);
+    transition: 0.5s;
 }
 label{
     font-size: 30px;
