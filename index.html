@@ -11,8 +11,14 @@
     <div class="content">
         <div class="container">
             <div id="text">Temperature Converter</div>
-            <input type="text" id="textbox"><br>
-            <button id="submit">Submit</button>
+            <input type="text" id="textbox" placeholder="Enter value"><br>
+            <input type="radio" id="fahrenheit" name="ans">
+            <label for="fahrenheit">Celcius to Fahrenheit</label><br>
+            <input type="radio" id="celcius" name="ans">
+            <label for="celcius">Fahrenheit to Celcius</label><br><br>
+            
+
+            <button id="submit" onclick="calculate()">Submit</button>
             <div id="ans">Your Answer</div>
         </div>
     </div>
